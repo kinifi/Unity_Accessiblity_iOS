@@ -23,7 +23,7 @@ namespace UnitySwift {
 
                 //// Configure build settings
                 proj.SetBuildProperty(targetGuid, "ENABLE_BITCODE", "YES");
-                proj.SetBuildProperty(targetGuid, "SWIFT_OBJC_BRIDGING_HEADER", "Libraries/Plugins/iOS/Accessibility/UnitySwift/Native/UnitySwift-Bridging-Header.h");
+                proj.SetBuildProperty(targetGuid, "SWIFT_OBJC_BRIDGING_HEADER", "Libraries/Plugins/iOS/Accessibility/TextToSpeech/UnitySwift/Native/UnitySwift-Bridging-Header.h");
                 proj.SetBuildProperty(targetGuid, "SWIFT_OBJC_INTERFACE_HEADER_NAME", "unityswift-Swift.h");
                 proj.AddBuildProperty(targetGuid, "LD_RUNPATH_SEARCH_PATHS", "@executable_path/Frameworks");
 
